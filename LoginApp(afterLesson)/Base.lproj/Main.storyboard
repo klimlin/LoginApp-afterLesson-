@@ -147,7 +147,7 @@
         <!--General Information-->
         <scene sceneID="wbp-VS-f2u">
             <objects>
-                <viewController id="OeV-bE-0f4" sceneMemberID="viewController">
+                <viewController id="OeV-bE-0f4" customClass="GeneralInfoViewController" customModule="LoginApp_afterLesson_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lmz-fC-vst">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -166,15 +166,15 @@
             </objects>
             <point key="canvasLocation" x="648" y="1700"/>
         </scene>
-        <!--View Controller-->
+        <!--More Info View Controller-->
         <scene sceneID="GNk-nJ-1qn">
             <objects>
-                <viewController id="5JZ-LP-ooR" sceneMemberID="viewController">
+                <viewController id="5JZ-LP-ooR" customClass="MoreInfoViewController" customModule="LoginApp_afterLesson_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W44-T7-Qxf">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="kdi-YT-uIw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.77490928869999998" green="0.65381460970000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="RMw-eH-L4h"/>
                 </viewController>
@@ -185,7 +185,7 @@
         <!--Quotation-->
         <scene sceneID="yVY-2H-k1C">
             <objects>
-                <viewController id="YbU-FU-ESg" sceneMemberID="viewController">
+                <viewController id="YbU-FU-ESg" customClass="QuotationViewController" customModule="LoginApp_afterLesson_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BBH-oJ-1BD">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,6 +205,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5tL-XT-qwU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nVF-9j-W1r">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -242,9 +243,6 @@
         <image name="highlighter" catalog="system" width="128" height="120"/>
         <image name="homekit" catalog="system" width="128" height="104"/>
         <image name="person" catalog="system" width="128" height="121"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
