@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		FAD8F8FD291A9DAE00DE8B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */; };
 		FAD8F8FF291A9DAE00DE8B63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */; };
-		FAD8F901291A9DAE00DE8B63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F900291A9DAE00DE8B63 /* ViewController.swift */; };
+		FAD8F901291A9DAE00DE8B63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F900291A9DAE00DE8B63 /* LoginViewController.swift */; };
 		FAD8F904291A9DAE00DE8B63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8F902291A9DAE00DE8B63 /* Main.storyboard */; };
 		FAD8F906291A9DAF00DE8B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD8F905291A9DAF00DE8B63 /* Assets.xcassets */; };
 		FAD8F909291A9DAF00DE8B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD8F907291A9DAF00DE8B63 /* LaunchScreen.storyboard */; };
+		FAD8F911291AAD5100DE8B63 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F910291AAD5100DE8B63 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAD8F8F9291A9DAE00DE8B63 /* LoginApp(afterLesson).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginApp(afterLesson).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAD8F900291A9DAE00DE8B63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAD8F900291A9DAE00DE8B63 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FAD8F903291A9DAE00DE8B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD8F905291A9DAF00DE8B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD8F908291A9DAF00DE8B63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD8F90A291A9DAF00DE8B63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD8F910291AAD5100DE8B63 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */,
 				FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */,
-				FAD8F900291A9DAE00DE8B63 /* ViewController.swift */,
+				FAD8F900291A9DAE00DE8B63 /* LoginViewController.swift */,
 				FAD8F902291A9DAE00DE8B63 /* Main.storyboard */,
+				FAD8F910291AAD5100DE8B63 /* WelcomeViewController.swift */,
 				FAD8F905291A9DAF00DE8B63 /* Assets.xcassets */,
 				FAD8F907291A9DAF00DE8B63 /* LaunchScreen.storyboard */,
 				FAD8F90A291A9DAF00DE8B63 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD8F901291A9DAE00DE8B63 /* ViewController.swift in Sources */,
+				FAD8F901291A9DAE00DE8B63 /* LoginViewController.swift in Sources */,
+				FAD8F911291AAD5100DE8B63 /* WelcomeViewController.swift in Sources */,
 				FAD8F8FD291A9DAE00DE8B63 /* AppDelegate.swift in Sources */,
 				FAD8F8FF291A9DAE00DE8B63 /* SceneDelegate.swift in Sources */,
 			);
