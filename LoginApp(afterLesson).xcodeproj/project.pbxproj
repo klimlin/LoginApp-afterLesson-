@@ -58,48 +58,16 @@
 		FAD8F8FB291A9DAE00DE8B63 /* LoginApp(afterLesson) */ = {
 			isa = PBXGroup;
 			children = (
-				FAD8F939291ADF8600DE8B63 /* App */,
-				FAD8F93B291ADFA500DE8B63 /* ViewControllers */,
-				FAD8F93A291ADF9600DE8B63 /* Storyboards */,
-				FAD8F93C291ADFB700DE8B63 /* Resources */,
-			);
-			path = "LoginApp(afterLesson)";
-			sourceTree = "<group>";
-		};
-		FAD8F939291ADF8600DE8B63 /* App */ = {
-			isa = PBXGroup;
-			children = (
 				FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */,
 				FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */,
 				FAD8F90A291A9DAF00DE8B63 /* Info.plist */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		FAD8F93A291ADF9600DE8B63 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				FAD8F902291A9DAE00DE8B63 /* Main.storyboard */,
-				FAD8F907291A9DAF00DE8B63 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		FAD8F93B291ADFA500DE8B63 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
 				FAD8F900291A9DAE00DE8B63 /* LoginViewController.swift */,
 				FAD8F910291AAD5100DE8B63 /* WelcomeViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		FAD8F93C291ADFB700DE8B63 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
+				FAD8F902291A9DAE00DE8B63 /* Main.storyboard */,
+				FAD8F907291A9DAF00DE8B63 /* LaunchScreen.storyboard */,
 				FAD8F905291A9DAF00DE8B63 /* Assets.xcassets */,
 			);
-			path = Resources;
+			path = "LoginApp(afterLesson)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
