@@ -47,6 +47,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA64A82A291BE490005A0827 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */,
+				FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FA64A82B291BE4C8005A0827 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8F902291A9DAE00DE8B63 /* Main.storyboard */,
+				FAD8F907291A9DAF00DE8B63 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA64A82C291BE4EB005A0827 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8F900291A9DAE00DE8B63 /* LoginViewController.swift */,
+				FAD8F910291AAD5100DE8B63 /* WelcomeViewController.swift */,
+				FA64A822291AEC07005A0827 /* GeneralInfoViewController.swift */,
+				FA64A826291AEC98005A0827 /* QuotationViewController.swift */,
+				FA64A824291AEC6C005A0827 /* MoreInfoViewController.swift */,
+				FA64A828291AF04E005A0827 /* TabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA64A82D291BE787005A0827 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD8F905291A9DAF00DE8B63 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		FAD8F8F0291A9DAE00DE8B63 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +105,11 @@
 		FAD8F8FB291A9DAE00DE8B63 /* LoginApp(afterLesson) */ = {
 			isa = PBXGroup;
 			children = (
-				FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */,
-				FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */,
+				FA64A82A291BE490005A0827 /* App */,
+				FA64A82C291BE4EB005A0827 /* ViewControllers */,
+				FA64A82B291BE4C8005A0827 /* Storyboards */,
+				FA64A82D291BE787005A0827 /* Resources */,
 				FAD8F90A291A9DAF00DE8B63 /* Info.plist */,
-				FAD8F900291A9DAE00DE8B63 /* LoginViewController.swift */,
-				FAD8F910291AAD5100DE8B63 /* WelcomeViewController.swift */,
-				FA64A822291AEC07005A0827 /* GeneralInfoViewController.swift */,
-				FA64A826291AEC98005A0827 /* QuotationViewController.swift */,
-				FA64A824291AEC6C005A0827 /* MoreInfoViewController.swift */,
-				FAD8F902291A9DAE00DE8B63 /* Main.storyboard */,
-				FA64A828291AF04E005A0827 /* TabBarViewController.swift */,
-				FAD8F907291A9DAF00DE8B63 /* LaunchScreen.storyboard */,
-				FAD8F905291A9DAF00DE8B63 /* Assets.xcassets */,
 			);
 			path = "LoginApp(afterLesson)";
 			sourceTree = "<group>";
@@ -236,6 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/LoginApp(afterLesson)/LoginApp(afterLesson)/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -290,6 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "/LoginApp(afterLesson)/LoginApp(afterLesson)/App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
