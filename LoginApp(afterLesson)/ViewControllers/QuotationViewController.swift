@@ -9,10 +9,14 @@ import UIKit
 
 class QuotationViewController: UIViewController {
 
+    
+    @IBOutlet var quatationLable: UILabel!
+    var user: User!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        quatationLable.text = user.person.quotation
+       
     }
 
 }

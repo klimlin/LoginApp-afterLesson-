@@ -11,6 +11,7 @@
 		FA64A825291AEC6C005A0827 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A824291AEC6C005A0827 /* MoreInfoViewController.swift */; };
 		FA64A827291AEC98005A0827 /* QuotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A826291AEC98005A0827 /* QuotationViewController.swift */; };
 		FA64A829291AF04E005A0827 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A828291AF04E005A0827 /* TabBarViewController.swift */; };
+		FA64A82F291BE94F005A0827 /* PersonalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A82E291BE94F005A0827 /* PersonalData.swift */; };
 		FAD8F8FD291A9DAE00DE8B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */; };
 		FAD8F8FF291A9DAE00DE8B63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */; };
 		FAD8F901291A9DAE00DE8B63 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8F900291A9DAE00DE8B63 /* LoginViewController.swift */; };
@@ -25,6 +26,7 @@
 		FA64A824291AEC6C005A0827 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 		FA64A826291AEC98005A0827 /* QuotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotationViewController.swift; sourceTree = "<group>"; };
 		FA64A828291AF04E005A0827 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FA64A82E291BE94F005A0827 /* PersonalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData.swift; sourceTree = "<group>"; };
 		FAD8F8F9291A9DAE00DE8B63 /* LoginApp(afterLesson).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginApp(afterLesson).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD8F8FC291A9DAE00DE8B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD8F8FE291A9DAE00DE8B63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		FA64A830291BE959005A0827 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA64A82E291BE94F005A0827 /* PersonalData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FAD8F8F0291A9DAE00DE8B63 = {
 			isa = PBXGroup;
 			children = (
@@ -105,11 +115,12 @@
 		FAD8F8FB291A9DAE00DE8B63 /* LoginApp(afterLesson) */ = {
 			isa = PBXGroup;
 			children = (
+				FAD8F90A291A9DAF00DE8B63 /* Info.plist */,
+				FA64A830291BE959005A0827 /* Models */,
 				FA64A82A291BE490005A0827 /* App */,
 				FA64A82C291BE4EB005A0827 /* ViewControllers */,
 				FA64A82B291BE4C8005A0827 /* Storyboards */,
 				FA64A82D291BE787005A0827 /* Resources */,
-				FAD8F90A291A9DAF00DE8B63 /* Info.plist */,
 			);
 			path = "LoginApp(afterLesson)";
 			sourceTree = "<group>";
@@ -190,6 +201,7 @@
 				FAD8F901291A9DAE00DE8B63 /* LoginViewController.swift in Sources */,
 				FA64A827291AEC98005A0827 /* QuotationViewController.swift in Sources */,
 				FAD8F911291AAD5100DE8B63 /* WelcomeViewController.swift in Sources */,
+				FA64A82F291BE94F005A0827 /* PersonalData.swift in Sources */,
 				FA64A825291AEC6C005A0827 /* MoreInfoViewController.swift in Sources */,
 				FAD8F8FD291A9DAE00DE8B63 /* AppDelegate.swift in Sources */,
 				FAD8F8FF291A9DAE00DE8B63 /* SceneDelegate.swift in Sources */,
@@ -268,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "/LoginApp(afterLesson)/LoginApp(afterLesson)/App/Info.plist";
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -323,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "/LoginApp(afterLesson)/LoginApp(afterLesson)/App/Info.plist";
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

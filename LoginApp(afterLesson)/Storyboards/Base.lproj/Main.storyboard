@@ -242,12 +242,21 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q3x-Ug-sh7">
+                                <rect key="frame" x="235" y="106" width="120" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="D1q-x3-t14"/>
+                                    <constraint firstAttribute="height" constant="128" id="wwF-2r-BCR"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rKh-Mj-yFV"/>
                         <color key="backgroundColor" red="0.77490928869999998" green="0.65381460970000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="q3x-Ug-sh7" firstAttribute="top" secondItem="rKh-Mj-yFV" secondAttribute="top" constant="10" id="2mC-cv-6Az"/>
                             <constraint firstItem="aXO-V2-HZJ" firstAttribute="leading" secondItem="rKh-Mj-yFV" secondAttribute="leading" constant="20" id="8tQ-du-Zeo"/>
                             <constraint firstItem="aXO-V2-HZJ" firstAttribute="centerY" secondItem="lmz-fC-vst" secondAttribute="centerY" id="dJ0-w4-J8U"/>
+                            <constraint firstItem="rKh-Mj-yFV" firstAttribute="trailing" secondItem="q3x-Ug-sh7" secondAttribute="trailing" constant="20" id="elX-kh-E1F"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Общая информация" id="O0n-RU-JvF">
@@ -258,10 +267,18 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="interestLabel" destination="SfF-Ta-UuM" id="yTi-LG-WEV"/>
+                        <outlet property="jobLabel" destination="1Hp-GL-NMd" id="agy-5B-M4P"/>
+                        <outlet property="lastNameLabel" destination="Fl0-zz-erz" id="4YU-gZ-9Uk"/>
+                        <outlet property="nameLabel" destination="tE5-ro-nPi" id="z8o-QO-awe"/>
+                        <outlet property="photoImage" destination="q3x-Ug-sh7" id="K77-QD-m7W"/>
+                        <outlet property="studyLabel" destination="ylL-Jw-Nee" id="sWD-N6-xGZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VfR-4T-hA5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="648" y="1700"/>
+            <point key="canvasLocation" x="647.20000000000005" y="1699.7001499250375"/>
         </scene>
         <!--More Info View Controller-->
         <scene sceneID="GNk-nJ-1qn">
@@ -277,13 +294,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lg-xR-zOk">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Something" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lg-xR-zOk">
                                 <rect key="frame" x="36.5" y="151.5" width="302" height="364"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="302" id="R7N-aX-pms"/>
                                     <constraint firstAttribute="height" constant="364" id="qWS-n6-4sj"/>
                                 </constraints>
-                                <mutableString key="text">Сти́вен Пол (Стив) Джобс (англ. Steven Paul (Steve) Jobs; 24 февраля 1955, Сан-Франциско, Калифорния, США — 5 октября 2011, Пало-Алто, Санта-Клара, Калифорния, США) — американский предприниматель, изобретатель и промышленный дизайнер, получивший широкое признание в качестве пионера эры информационных технологий. Один из основателей, председатель совета директоров и CEO корпорации Apple. Один из основателей и CEO киностудии Pixar.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -300,6 +316,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" style="editor" id="RMw-eH-L4h"/>
+                    <connections>
+                        <outlet property="inspiringPersonLabel" destination="0lg-xR-zOk" id="3sF-aD-tvj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6uN-HM-1Kq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -342,6 +361,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Quotation" image="highlighter" catalog="system" id="GUf-02-Bxt"/>
+                    <connections>
+                        <outlet property="quatationLable" destination="SqU-yd-O3O" id="aqH-rq-wNp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpV-Rh-fAo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
